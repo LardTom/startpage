@@ -48,9 +48,9 @@
         "tags": ["all", "3D", "vfx", "hdri", "material", "database"]
     },
     {
-        "url": "https://hidden.com",
+        "url": "https://github.com/djsime1/awesome-flipperzero",
         "type": "WebLink",
-        "title": "hidden link",
-        "tags": ["hidden"]
+        "title": "Awesome Flipper",
+        "tags": ["all", "flipper"]
     }
 ]
