@@ -1,0 +1,50 @@
+[
+    {
+        "url": "https://www.youtube.com/",
+        "type": "WebLink",
+        "title": "YouTube",
+        "tags": ["media", "entertainment"]
+    },
+    {
+        "url": "https://tomhenniger.de",
+        "type": "WebLink",
+        "title": "Tom Henniger",
+        "tags": ["personal", "portfolio"]
+    },
+    {
+        "url": "https://chat.openai.com",
+        "type": "WebLink",
+        "title": "Chat GPT",
+        "tags": ["ai"]
+    },
+    {
+        "url": "https://www.icloud.com/",
+        "type": "WebLink",
+        "title": "iCloud",
+        "tags": ["management", "profile"]
+    },
+    {
+        "url": "https://www.nexusmods.com/users/myaccount?tab=files",
+        "type": "WebLink",
+        "title": "Nexusmods",
+        "tags": ["management", "profile", "mods", "work"]
+    },
+    {
+        "url": "https://web.whatsapp.com/",
+        "type": "WebLink",
+        "title": "WhatsApp",
+        "tags": ["messaging", "social"]
+    },
+    {
+        "url": "https://community.chocolatey.org/packages",
+        "type": "WebLink",
+        "title": "Chocolatey",
+        "tags": ["program", "package"]
+    },
+    {
+        "url": "https://ambientcg.com/list",
+        "type": "WebLink",
+        "title": "ambientCG",
+        "tags": ["3D", "vfx", "hdri", "material", "database"]
+    }
+]

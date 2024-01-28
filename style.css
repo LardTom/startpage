@@ -1,0 +1,108 @@
+:root {
+    --background-color: #f0f0f0;
+    --tile-background-color: #fff;
+    --tile-color: #000;
+    --font: Arial, Helvetica, sans-serif;
+  }
+  
+  [data-theme="dark"] {
+    --background-color: #333;
+    --tile-background-color: #444;
+    --tile-color: #fff;
+    --font: Arial, Helvetica, sans-serif;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: var(--background-color);
+    font-family: var(--font);
+  }
+  
+  #search-container {
+    text-align: center;
+    width: 15rem;
+    margin: 2rem 0 4rem 0;
+  }
+  
+  #search-input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  #tiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .tile {
+    display: flex;
+    align-items: center;
+    background-color: var(--tile-background-color);
+    color: var(--tile-color);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    min-width: 100px;
+    max-width: 200px;
+  }
+  
+  .favicon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .tile-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  #clock {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    color: var(--tile-color);
+    font-family: 'Arial', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  #settings-menu {
+    position: fixed;
+    bottom: 5rem;
+    right: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+  }
+  
+  #settings-icon {
+    position: fixed;
+    bottom: 2rem;
+    right: 40px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+  
