@@ -11,6 +11,13 @@
     --tile-color: #fff;
     --font: Arial, Helvetica, sans-serif;
   }
+
+[data-theme="porsche"] {
+    --background-color: url("./startpage-wallpaper/porsche.png");
+    --tile-background-color: #444;
+    --tile-color: #fff;
+    --font: Arial, Helvetica, sans-serif;
+  }
   
   body, html {
     margin: 0;
