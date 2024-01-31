@@ -152,7 +152,7 @@
   }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #clock {
     display: none;
   }
@@ -179,7 +179,7 @@
 }
 
 /* Optional: Verbesserungen für die Anzeige auf Mobilgeräten */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #tags-container {
     justify-content: center; /* Zentriert die Tags auf kleinen Bildschirmen */
     padding: 10px; /* Erhöht den Abstand zum Rand */
