@@ -66,7 +66,13 @@ function collectAndDisplayTags() {
           });
         }
       });
-      displayTags(Array.from(allTags));
+      // Sortiere die Tags alphabetisch und stelle sicher, dass 'all' (falls vorhanden) an erster Stelle bleibt
+      const sortedTags = Array.from(allTags).sort((a, b) => {
+        if (a === 'all') return -1;
+        if (b === 'all') return 1;
+        return a.localeCompare(b);
+      });
+      displayTags(sortedTags);
     })
     .catch(error => console.error('Fehler beim Laden der Tags:', error));
 }
