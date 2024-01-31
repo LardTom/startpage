@@ -45,7 +45,7 @@
         "url": "https://ambientcg.com/list",
         "type": "WebLink",
         "title": "ambientCG",
-        "tags": ["all", "3D", "vfx", "hdri", "material", "database"]
+        "tags": ["all", "3d", "vfx", "hdri", "material", "database"]
     },
     {
         "url": "https://github.com/djsime1/awesome-flipperzero",
