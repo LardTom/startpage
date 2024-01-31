@@ -150,3 +150,39 @@
     width: calc(100% - 20px);
     box-sizing: border-box;
   }
+
+
+@media (max-width: 768px) {
+  #clock {
+    display: none;
+  }
+}
+
+/* Füge den Tags einen Mindestabstand hinzu */
+#tags-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: flex-start; /* Zentriert die Tags nicht, gibt ihnen aber Platz zum Rand */
+}
+
+#tags-container button {
+  margin: 5px 0; /* Sorgt für einen vertikalen Abstand zwischen den Tags */
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  cursor: pointer;
+  font-size: 14px; /* Optional: Passt die Schriftgröße für bessere Lesbarkeit an */
+}
+
+/* Optional: Verbesserungen für die Anzeige auf Mobilgeräten */
+@media (max-width: 768px) {
+  #tags-container {
+    justify-content: center; /* Zentriert die Tags auf kleinen Bildschirmen */
+    padding: 10px; /* Erhöht den Abstand zum Rand */
+  }
+}
+
