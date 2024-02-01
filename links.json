@@ -52,5 +52,13 @@
         "type": "WebLink",
         "title": "Awesome Flipper",
         "tags": ["all", "flipper"]
+    },
+    {
+        "url": "https://patreon.com/tomhenniger",
+        "type": "WebLink",
+        "title": "Patreon",
+        "tags": ["all", "media", "social", "work"]
     }
 ]
+
+
