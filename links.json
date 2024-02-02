@@ -21,13 +21,13 @@
         "url": "https://www.icloud.com/",
         "type": "WebLink",
         "title": "iCloud",
-        "tags": ["all", "management", "profile"]
+        "tags": ["all", "management", "profile", "dashboard"]
     },
     {
         "url": "https://www.nexusmods.com/users/myaccount?tab=files",
         "type": "WebLink",
         "title": "Nexusmods",
-        "tags": ["all", "management", "profile", "mods", "work"]
+        "tags": ["all", "management", "profile", "mods", "work", "dashboard"]
     },
     {
         "url": "https://web.whatsapp.com/",
@@ -58,7 +58,16 @@
         "type": "WebLink",
         "title": "Patreon",
         "tags": ["all", "media", "social", "work"]
+    },
+    {
+        "url": "http://192.168.178.97/admin/index.php",
+        "type": "WebLink",
+        "title": "PiHole Dashboard",
+        "tags": ["all", "dashboard", "smarthome"]
     }
 ]
+
+
+
 
 
