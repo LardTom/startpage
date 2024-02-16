@@ -64,6 +64,12 @@
         "type": "WebLink",
         "title": "PiHole Dashboard",
         "tags": ["all", "dashboard", "smarthome"]
+    },
+    {
+        "url": "http://127.0.0.1:8384/#device-sharing",
+        "type": "WebLink",
+        "title": "Syncthing Dashboard",
+        "tags": ["all", "dashboard", "smarthome"]
     }
 ]
 
