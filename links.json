@@ -18,6 +18,12 @@
         "tags": ["all", "ai"]
     },
     {
+        "url": "https://www.upwork.com/nx/find-work/best-matches",
+        "type": "WebLink",
+        "title": "Upwork",
+        "tags": ["all", "dashboard", "work"]
+    },
+    {
         "url": "https://www.icloud.com/",
         "type": "WebLink",
         "title": "iCloud",
@@ -66,6 +72,8 @@
         "tags": ["all", "dashboard", "smarthome"]
     }
 ]
+
+
 
 
 
