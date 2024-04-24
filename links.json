@@ -54,6 +54,18 @@
         "tags": ["all", "3d", "vfx", "hdri", "material", "database"]
     },
     {
+        "url": "https://www.sharetextures.com/",
+        "type": "WebLink",
+        "title": "shareTextures",
+        "tags": ["all", "3d", "vfx", "hdri", "material", "database"]
+    },
+    {
+        "url": "https://texturebox.com/",
+        "type": "WebLink",
+        "title": "TextureBox",
+        "tags": ["all", "3d", "vfx", "hdri", "material", "database"]
+    },
+    {
         "url": "https://github.com/djsime1/awesome-flipperzero",
         "type": "WebLink",
         "title": "Awesome Flipper",
